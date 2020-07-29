@@ -1,0 +1,16 @@
+功能：	SRGAN算法
+
+执行方式：训练
+	  $ th ./run_sr.lua 
+
+	  验证测试
+	  $cd test; th ./run_test.lua
+
+
+说明：1. github：https://github.com/LimBee/NTIRE2017.git
+      2. 为减少SVN项目的空间，去掉一些训练库，包括 code/model/edsr_pre.t7; code/model/model_300.t7
+      3. 更多的操作使用参考README.md
+
+目录：/home/user/project/edsr
+
+备注：目录是指在服务器上的目录

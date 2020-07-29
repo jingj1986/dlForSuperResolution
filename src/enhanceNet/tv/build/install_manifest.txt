@@ -1,0 +1,8 @@
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/SpatialSobelFilter.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/init.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/SpatialSimpleGradFilter.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/SpatialTVNorm.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/SpatialTVNormCriterion.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/temp/timing_simplegrad.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/temp/timing_tvnorm.lua
+/home/user/torch/install/lib/luarocks/rocks/tvnorm-nn/scm-1/lua/tvnorm-nn/temp/timing_tvnormCri.lua

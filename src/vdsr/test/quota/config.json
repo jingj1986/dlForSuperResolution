@@ -1,0 +1,29 @@
+{
+    "caffe": {
+        "deploy": "./VDSR/VDSR_deploy.prototxt",
+        "user":"user",
+        "ip": "127.0.0.1",
+        "path": "/home/user/caffe/examples/VDSR_test/Model",
+        "type": "FIX_INT",
+        "step": 100,
+        "sleep": 3
+    },
+    "quotas": [ 
+        { "name": "PsnrQuota",
+          "var": "END_BAD"
+        }
+    ],
+    "images": [
+        "/home/user/data/Set14/pepper.bmp",
+        "/home/user/data/Set14/man.bmp",
+        "/home/user/data/Set14/zebra.bmp",
+        "/home/user/data/Set14/lenna.bmp",
+        "/home/user/data/Set14/comic.bmp",
+        "/home/user/data/Set14/baboon.bmp",
+        "/home/user/data/Set14/coastguard.bmp",
+        "/home/user/data/Set14/foreman.bmp",
+        "/home/user/data/Set14/face.bmp",
+        "/home/user/data/Set14/flowers.bmp"
+    ]
+}
+

@@ -1,0 +1,18 @@
+功能：	SRGAN算法
+
+执行方式：训练
+	  $ th ./run_sr.lua 
+
+	  验证测试
+	  $cd test; th ./run_test.lua
+
+
+说明：	1. 参考github：https://github.com/leehomyc/Photo-Realistic-Super-Resoluton.git
+
+      	2. adversarial_D.lua  adversarial_G.lua 分别为生成和对抗网络
+	3. run_19.lua run_bgr.lua run_l1.lua run_mse.lua run_resume.lua run_samesize.lua 等均为执行训练脚本，
+	 目标不同，设置不同loss、通道、预处理等
+
+目录：/home/user/project/srgan_bgr
+
+备注：目录是指在服务器上的目录

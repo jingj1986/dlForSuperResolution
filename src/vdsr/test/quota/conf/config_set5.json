@@ -1,0 +1,24 @@
+{
+    "caffe": {
+        "deploy": "./VDSR/VDSR_deploy.prototxt",
+        "user":"user",
+        "ip": "train",
+        "path": "/home/user/caffe/examples/VDSR_test/Model/",
+        "type": "FIX_INT",
+        "step": 10000,
+        "sleep": 3
+    },
+    "quotas": [ 
+        { "name": "PsnrQuota",
+          "var": "END_BAD"
+        }
+    ],
+    "images": [
+        "/home/user/data/Set5/baby_GT.bmp",
+        "/home/user/data/Set5/bird_GT.bmp",
+        "/home/user/data/Set5/head_GT.bmp",
+        "/home/user/data/Set5/woman_GT.bmp"
+    ]
+}
+
+

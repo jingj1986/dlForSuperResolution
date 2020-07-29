@@ -1,0 +1,15 @@
+功能：	VDSR算法
+
+执行方式：caffe版本，训练
+	  $cd VDSR_ycbcr_2f; ./start.sh
+	  caffe版本，验证测试
+	  $cd test/predict; ./predict.py
+	  torch版本，训练
+	  $cd vdsr_vgg; th ./run_sr.lua
+
+说明：	1. 主要训练caffe版本,github: https://github.com/huangzehao/caffe-vdsr
+	2. 更多的说明，参考README.md
+
+目录：/home/user/caffe/examples/CDSR_ycbcr_2f
+
+备注：目录是指在服务器上的目录

@@ -1,0 +1,7 @@
+该目录包含一些bash和python脚本
+AVS： 	avs脚本，包括去除视频斑点、椒盐噪声
+CAFFE2TORCH:	将caffe训练库转为torch训练库
+FFMPEG：ffmpeg常见用法举例
+FSIM:	图像质量评价指标fsim脚本
+GENH5：	生成H5格式的数据集
+GNUPLOT：使用gnuplot命令生成绘制loss变化图

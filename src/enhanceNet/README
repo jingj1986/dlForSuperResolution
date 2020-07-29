@@ -1,0 +1,29 @@
+功能：	ENHANCENET
+
+执行方式：训练
+	  $./run_sr.lua
+	  验证测试
+	  $./test/run_test.lua
+
+说明：	1. 主要参考srgan代码，采用的网络结构不同
+      	2. 256_G.lua  adversarial_D.lua adversarial_G.lua bak.lua
+	    bak_enhance_2.lua  bak_enhance_4.lua  bak_enhanceNet.lua  
+	    为网络的配置文件
+
+      	3. run_sr.lua  run_sr_l1.lua  run_sr_l2.lua  run_sr_vgg.lua  
+	   run_sr_vgg-bak.lua  test_net.lua 
+	   为启动训练的脚本，各个脚本有不同功能
+
+      	4. data目录下脚本，加载训练集到内存，为训练脚本所用；
+	   为实现加载不同类型训练集，调整实现了不同的donkey_folder_supres脚本；
+	   data.lua和dataset.lua保持不变，其他均是donkey_folder_supres的调整版本。
+
+      	5. utils目录脚本，实现不同的网络层和loss计算
+      	6. weight-init.lua为网络参数权重初始化脚本
+	7. test目录下为测试的脚本，为支持单通道、多通道、输入时有无均值等，提供了不同的脚本
+		服务器上目录为： /home/user/project/srgan_test
+
+
+目录：/home/user/project/edsr
+
+备注：目录是指在服务器上的目录
